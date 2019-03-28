@@ -17,8 +17,6 @@ https://www.anaconda.com
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
 Install conda using
 
 ```
@@ -31,12 +29,19 @@ Activate virtualenv using
 conda activate <env_name>
 ```
 
+Update all packages requires using :
+
+```
+conda env update -f=tfdl_env.yml
+```
+
 Open Corresponding notebooks in Jupyter using
 
 ```
 Jupyter notebook
 ```
 
+Note: Open all notebooks in Admin mode if you are in Windows 10. Model saving and restoring requires permissions.
 ## Running the tests
 
 TODO
